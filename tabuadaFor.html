@@ -1,0 +1,25 @@
+<script>
+function pulaLinha(){
+document.write("<br>");
+document.write("<br>");
+}
+
+function mostra(frase){
+document.write(frase);
+pulaLinha();
+}
+
+
+var tabuada = parseInt(prompt("Digite a tabuada você deseja consultar"));
+for(multiplicador = 0; multiplicador <= 10; multiplicador++){
+
+resultado = tabuada * multiplicador;
+mostra(tabuada + " x " + multiplicador + " = " + resultado);
+
+}
+
+
+
+
+
+</script>

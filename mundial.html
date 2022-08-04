@@ -1,0 +1,30 @@
+
+<input/>
+<button>Click</button>
+
+<script>
+
+
+	var time = document.querySelector("input");
+
+	function verifica(){
+
+		if(time.value == 1){
+			alert("Tem mundial");
+		}else if(time.value == 2){
+			alert("Não tem mundial");
+		}
+
+		time.value = "";
+	}
+
+
+	var botao = document.querySelector("button");
+	botao.onclick = verifica;
+
+
+
+
+
+
+</script>
